@@ -46,4 +46,23 @@ function loopThroughArray() {
   }
 }
 
-loopThroughArray();
+//loopThroughArray();
+
+//while Loop
+function whileloop() {
+  let i = 0;
+  while (i < 5) {
+    console.log(i);
+    i++;
+  }
+
+  //*While loop is use to repeat a specific block of code an unknown number of time,until a condition is met.
+  let count = 1;
+  while (count < 100) {
+    count = count + 2;
+  }
+
+  console.log(count);
+}
+
+whileloop();
