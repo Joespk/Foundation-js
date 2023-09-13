@@ -59,3 +59,21 @@ const loopThroughArrayV2 = (arr, cb) => {
 loopThroughArrayV2(originalArr, (item) => {
   console.log(item);
 });
+
+// *Callback Function using Array has return
+
+const mapArray = (arr, cb) => {
+  const result = [];
+  for (let i = 0; i < arr.length; i++) {
+    const newItem = cb(arr[i]);
+    result.push(newItem);
+  }
+
+  return result;
+};
+
+const newArr = mapArray(originalArr, (item) => {
+  return item * 2;
+});
+
+console.log(newArr);
