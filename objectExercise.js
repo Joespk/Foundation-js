@@ -36,4 +36,4 @@ const resultString = data.reduce((PreVal, val, idx) => {
   __________________`;
 }, "");
 
-console.log(resultString);
+console.log(resultString); //print result
