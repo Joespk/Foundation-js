@@ -12,12 +12,20 @@ const newprices = prices.map((price) => {
   return price * 1.1;
 });
 
-console.log(newprices);
+console.log("New prices :", newprices);
 
-//filter
+//.filter
 
-const filprices = prices.filter((price) => {
-  return price % 2 === 0;
+const premiumPrices = newprices.filter((price) => {
+  return price > 30;
 });
 
-console.log(filprices);
+console.log("premiumPrices :", premiumPrices);
+
+//.reduce
+
+const sumPrice = newprices.reduce((PreVal, price) => {
+  return PreVal + price;
+});
+
+console.log("sumPrice :", sumPrice);
