@@ -25,3 +25,15 @@ data.forEach((person, idx) => {
   console.log("Job :", person.job);
   console.log("___________________");
 });
+
+//Reduce
+const resultString = data.reduce((PreVal, val, idx) => {
+  return `${PreVal}\n
+  Person ${idx + 1}\n
+  Name: ${val.name}\n
+  Age: ${val.age}\n
+  Job: ${val.job}\n
+  __________________`;
+}, "");
+
+console.log(resultString);
