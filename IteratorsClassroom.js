@@ -26,6 +26,6 @@ console.log("premiumPrices :", premiumPrices);
 
 const sumPrice = newprices.reduce((PreVal, price) => {
   return PreVal + price;
-});
+}, 5 /*Initivalue*/);
 
 console.log("sumPrice :", sumPrice);
