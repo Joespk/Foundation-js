@@ -17,10 +17,11 @@ const data = [
   },
 ];
 
+//forEach
 data.forEach((person, idx) => {
-  console.log("Person" + (idx + 1)); //เวลาจะทำอะไรที่เกี่ยวกับMathให้ใส่()นำก่อนเสมอ
-  console.log("Name :" + person.name);
-  console.log("age :" + person.age);
-  console.log("Job :" + person.job);
+  console.log("Person", idx + 1); //เวลาจะทำอะไรที่เกี่ยวกับMathให้ใส่()นำก่อนเสมอ
+  console.log("Name :", person.name);
+  console.log("age :", person.age);
+  console.log("Job :", person.job);
   console.log("___________________");
 });
