@@ -20,3 +20,22 @@ person2.name = "Joe";
 
 console.log("person 1:", person);
 console.log("person 2:", person2);
+
+//*Array of object:data from fetching data
+const data = [
+  {
+    name: "John",
+    age: 22,
+    job: "software engineer",
+  },
+  {
+    name: "Johny",
+    age: 26,
+    job: "web designer",
+  },
+  {
+    name: "Watson",
+    age: 36,
+    job: "marketing",
+  },
+];
