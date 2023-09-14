@@ -22,4 +22,5 @@ data.forEach((person, idx) => {
   console.log("Name :" + person.name);
   console.log("age :" + person.age);
   console.log("Job :" + person.job);
+  console.log("___________________");
 });
