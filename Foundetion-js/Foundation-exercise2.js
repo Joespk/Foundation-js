@@ -1,4 +1,4 @@
-/*Write a function reverse(arr)
+/*2.Write a function reverse(arr)
 
 reverse(arr) returns a new array which is arr reversed.
 
