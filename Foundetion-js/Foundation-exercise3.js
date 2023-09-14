@@ -6,3 +6,15 @@
 
 //isMember(5, [1, 3, 7, 12]) // false
 //isMember('john', ['jane', 'jim', 'john']) // true
+
+function isMember(mem, arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === mem) {
+      return true;
+    }
+  }
+  return false;
+}
+
+console.log(isMember(5, [1, 3, 7, 12])); // false
+console.log(isMember("john", ["jane", "jim", "john"])); // true

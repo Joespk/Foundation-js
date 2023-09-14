@@ -4,9 +4,9 @@
 //const arr = [10, 20, 10, 20, 30, 50, 60, 100]
 //unique(arr) // [10, 20, 30, 50, 60, 100]
 
-//const arr = [10, 20, 10, 20, 30, 50, 60, 100];
-//const unique = (arr) => {
-//  return arr.filter((el, idx) => arr.indexOf(el) === idx);
-//};
+const arr = [10, 20, 10, 20, 30, 50, 60, 100];
+const unique = (arr) => {
+  return arr.filter((el, idx) => arr.indexOf(el) === idx);
+};
 
-//console.log(unique(arr));
+console.log(unique(arr));
