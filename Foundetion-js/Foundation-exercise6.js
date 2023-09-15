@@ -20,3 +20,17 @@ function draw(n) {
 }
 
 draw(5);
+
+//Answer
+const drawNg = (n) => {
+  if (n < 0) return;
+
+  for (let i = 0; i <= n; i++) {
+    //Initialize s
+    let s = "";
+    for (let j = 0; j <= i; j++) {
+      s += "*";
+    }
+    console.log(s);
+  }
+};
