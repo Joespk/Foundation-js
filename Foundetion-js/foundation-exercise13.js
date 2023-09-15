@@ -9,7 +9,6 @@
 
 function mean(arr) {
   const meanVal = "";
-  for (let i = 0; i < arr.length; i++) {}
 }
 
 //test case
