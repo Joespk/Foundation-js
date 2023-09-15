@@ -25,3 +25,37 @@ function maxNegMinPos(arr) {
 }
 
 maxNegMinPos(arr);
+
+//Answer
+/* const maxNegMinPos = (arr) => {
+  //There could be null
+  let maxNeg = null
+  let minPos = null
+
+  for(let i = 0;i < arr.lenght; i++){
+    const elem = arr[i]
+
+    if(elem < 0){
+      //*negative num
+      if(!maxNeg) {
+        maxNeg = elem
+        continue
+      }
+
+      if(elem > maxNeg){
+        maxNeg = elem
+      } 
+    } else {
+      if(!minPos){
+        minPos = elem
+        continue
+      }
+
+      if(elem < minPos){
+        minPos = elem
+      }
+    }
+  }
+
+  console.log(`MaxNeg is ${maxNeg}\nMinPos is ${minPos}`)
+}*/
