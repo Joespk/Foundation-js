@@ -27,6 +27,20 @@ const toBytes = (s) => {
     }
   }
   return NewArr; //ส่งค่าคืน
+  /*//Answer
+  const toBytes = (s) => {
+    const bytes = []
+    for(let i =0; i < s.length; i++){
+        const char= s.charCodeAt(i)
+
+        if(char > 255){
+            continue
+        }
+        bytes.push(char)
+    }
+    return bytes
+  }
+  */
 };
 
 //test case
